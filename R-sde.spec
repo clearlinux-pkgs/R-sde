@@ -4,7 +4,7 @@
 #
 Name     : R-sde
 Version  : 2.0.15
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/sde_2.0.15.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sde_2.0.15.tar.gz
 Summary  : Simulation and Inference for Stochastic Differential Equations
