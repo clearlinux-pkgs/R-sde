@@ -4,7 +4,7 @@
 #
 Name     : R-sde
 Version  : 2.0.15
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/sde_2.0.15.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sde_2.0.15.tar.gz
 Summary  : Simulation and Inference for Stochastic Differential Equations
@@ -37,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569374045
+export SOURCE_DATE_EPOCH=1570565275
 
 %install
-export SOURCE_DATE_EPOCH=1569374045
+export SOURCE_DATE_EPOCH=1570565275
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -173,4 +173,3 @@ R CMD check --no-manual --no-examples --no-codoc sde || :
 %defattr(-,root,root,-)
 /usr/lib64/R/library/sde/libs/sde.so
 /usr/lib64/R/library/sde/libs/sde.so.avx2
-/usr/lib64/R/library/sde/libs/sde.so.avx512
